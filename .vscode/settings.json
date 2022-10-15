@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./Lab-Assignment-01/problem8.py"
+    ]
+}
