@@ -17,17 +17,19 @@ def make_lower(str):
     return str.lower()
 
 def make_capital(str):
-
-    str_list = str.split()
-
-    if len(str_list) == 1:
         return str.capitalize()
+    #str_list = str.split()
 
-    for i, word in enumerate(str_list):
-        str_list[i] = word.capitalize()
+    # if len(str_list) == 1:
+    #     return str.capitalize()
+
+    # for i, word in enumerate(str_list):
+    #     str_list[i] = word.capitalize()
     
-    out = " "
-    return(out.join(str_list))
+    # out = " "
+    # return(out.join(str_list))
+
+    
 
 str = 'ziaul Hasan'
 
