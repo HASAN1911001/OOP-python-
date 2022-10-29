@@ -7,3 +7,12 @@ s = “Programming Hero is the best”
 Expected output: “gnimmargorP oreH si eht tseb”
 
 -------------------------------------------------------------------------------------'''
+
+s = input("input: ").split()
+
+for i, w in enumerate(s):
+    s[i] = w[::-1]
+
+output = " ".join(s)
+print(f'Output: {output}')
+
